@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stevi\\Hello-World\\Hello-World.csproj": {}
+    "E:\\Personal Projects\\chatappservice\\chatappservice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stevi\\Hello-World\\Hello-World.csproj": {
+    "E:\\Personal Projects\\chatappservice\\chatappservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stevi\\Hello-World\\Hello-World.csproj",
-        "projectName": "Hello-World",
-        "projectPath": "C:\\Users\\stevi\\Hello-World\\Hello-World.csproj",
-        "packagesPath": "C:\\Users\\stevi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stevi\\Hello-World\\obj\\",
+        "projectUniqueName": "E:\\Personal Projects\\chatappservice\\chatappservice.csproj",
+        "projectName": "chatappservice",
+        "projectPath": "E:\\Personal Projects\\chatappservice\\chatappservice.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal Projects\\chatappservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\stevi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,11 +64,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
